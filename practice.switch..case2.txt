@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+<body>
+<script>
+  var love = prompt ("Do you love me? yes or no:",'');
+  switch (love) {
+    case 'yes':
+      alert("I believe you are the one I have been looking for. Will you marry me?");
+      break;
+    case 'no':
+      alert('I still loving you');
+      break;
+    default:
+      alert('Baby! I LOVE YOU ^^');
+      break;
+  }
+</script>
+</body>
+</html>
