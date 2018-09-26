@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+<body>
+<script>
+  var value = prompt ("Type the number",'0');
+  switch ((value < 0) ? -1 : (value > 0) ? 1 : 0) {
+    case 0:
+      alert("0");
+      break;
+    case 1:// sao d? hi?n th? s? >0
+      alert('1');
+      break;
+    default:
+      alert('-1');
+      break;
+  }
+</script>
+</body>
+</html>
